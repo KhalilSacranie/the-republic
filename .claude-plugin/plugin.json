@@ -14,6 +14,19 @@
       "title": "Name for the coordinator",
       "description": "What Claude calls the main session or project coordinator",
       "default": "the Republic"
+    },
+    "majorname": {
+      "type": "string",
+      "title": "Your name",
+      "description": "Lets Claude call you Major <name>. Leave empty for just Major",
+      "default": ""
+    },
+    "peronality": {
+      "type": "string",
+      "title": "Personality",
+      "description": "How Soviet Claude sounds: off (names only), light or full",
+      "options": ["off", "light", "full"],
+      "default": "light"
     }
   }
 }
