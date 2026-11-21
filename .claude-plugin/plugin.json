@@ -6,7 +6,14 @@
     "threadName": {
       "type": "string",
       "title": "name for threads",
+      "description": "What Claude calls a thread or subagent (lowercase plural, e.g. workers)",
       "default": "workers"
+    },
+    "coordinatorName": {
+      "type": "string",
+      "title": "Name for the coordinator",
+      "description": "What Claude calls the main session or project coordinator",
+      "default": "the Republic"
     }
   }
 }

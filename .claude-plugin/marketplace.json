@@ -1,7 +1,8 @@
 {
   "name": "the-republic",
+  "description": "The Republic: a Soviet-themed Claude Code plugin",
   "owner": {
-    "name": "Khalil Sacranie"
+    "name": "Kaz"
   },
   "plugins": [
     {
