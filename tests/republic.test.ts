@@ -16,7 +16,7 @@ test('/republic uses majorName and personality', { options: { majorName: 'Khalil
 })
 
 test('off drops the tone but keeps the plain rules', () => {
-    const s = buildSection({ threads: 'workers', coordinator: 'the Republic', major: 'Major' }, 'off')
+    const s = buildSection({ threads: 'workers', coordinator: 'the Republic', major: 'Major' }, 'off', [])
     expect(s).not.toContain('## Personality')
     expect(s).toContain('## Keep the work plain')
 })
