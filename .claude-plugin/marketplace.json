@@ -1,0 +1,12 @@
+{
+  "name": "the-republic",
+  "owner": {
+    "name": "Khalil Sacranie"
+  },
+  "plugins": [
+    {
+      "name": "the-republic",
+      "source": "./"
+    }
+  ]
+}
